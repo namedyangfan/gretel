@@ -7,7 +7,7 @@
 ### Clone Repo
 
 ```
-git clone
+git clone git@github.com:namedyangfan/gretel.git
 
 ```
 
