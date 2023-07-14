@@ -31,7 +31,7 @@ function CustomersTableView() {
   const [numPages, setNumPages] = useState(1);
   const [status, setStatus] = useState('loading');
   const [searchParams, setSearchParams] = useSearchParams();
-  const currentPage = searchParams.get('page') || 1;
+  const currentPage = parseInt(searchParams.get('page'), 0) || 1;
 
   useEffect(() => {
     setStatus('loading');
